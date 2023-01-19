@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>303552525092-ecr2l0kjoeeggcia36h9fmhntopj9lar.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.303552525092-ecr2l0kjoeeggcia36h9fmhntopj9lar</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>303552525092-1sv4iluogovnn3cgup2ds8rksb05kdet.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCi68L_ifmxYXABSkHWZN7yXmagLrRpRXI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>303552525092</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.citydoctorapp.medicadmin</string>
+	<key>PROJECT_ID</key>
+	<string>shifahwellness-citydoctor</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shifahwellness-citydoctor.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:303552525092:ios:9a36dc9f59fa470efa79b1</string>
+	<key>DATABASE_URL</key>
+	<string>https://shifahwellness-citydoctor-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

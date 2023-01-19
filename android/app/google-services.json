@@ -1,0 +1,211 @@
+{
+  "project_info": {
+    "project_number": "303552525092",
+    "firebase_url": "https://shifahwellness-citydoctor-default-rtdb.firebaseio.com",
+    "project_id": "shifahwellness-citydoctor",
+    "storage_bucket": "shifahwellness-citydoctor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303552525092:android:b23c099a4bc9c17bfa79b1",
+        "android_client_info": {
+          "package_name": "com.citydoctor.edit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303552525092-arcv95lf76nlep89rc3v59a36hcavq2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citydoctor.edit",
+            "certificate_hash": "e262cdc499bb07da6b477434c8b67c980edf93d6"
+          }
+        },
+        {
+          "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgI44b9L4YWrRnXV4CjmeG5AXY5jL4TSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303552525092-crpi4lkv7g6pv9hslqbb64pvm5t0vh5m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shifahwellness.citydoctor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303552525092:android:9d3b10149ccfa22ffa79b1",
+        "android_client_info": {
+          "package_name": "com.citydoctorapp.medicadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgI44b9L4YWrRnXV4CjmeG5AXY5jL4TSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303552525092-crpi4lkv7g6pv9hslqbb64pvm5t0vh5m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shifahwellness.citydoctor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303552525092:android:ab92cfed342e3b61fa79b1",
+        "android_client_info": {
+          "package_name": "com.shifaahwellness.citydoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303552525092-1sv4iluogovnn3cgup2ds8rksb05kdet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shifaahwellness.citydoctor",
+            "certificate_hash": "2ce50181a7cf06186423db7e8ee9f7a7ff9be22f"
+          }
+        },
+        {
+          "client_id": "303552525092-ao60tivqfu9muuujdcrfml5fudhjp1us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shifaahwellness.citydoctor",
+            "certificate_hash": "48523c29ae7636c0fed1940ffaa16b4cdb80f450"
+          }
+        },
+        {
+          "client_id": "303552525092-bhkhq45etvmcaad17c5bfqa8vdi1br20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shifaahwellness.citydoctor",
+            "certificate_hash": "1b68d84ca38592632c5250a53364392a82be5723"
+          }
+        },
+        {
+          "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgI44b9L4YWrRnXV4CjmeG5AXY5jL4TSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303552525092-crpi4lkv7g6pv9hslqbb64pvm5t0vh5m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shifahwellness.citydoctor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303552525092:android:c2c406ecf957393dfa79b1",
+        "android_client_info": {
+          "package_name": "com.shifahwellness.fordoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303552525092-7h0lppgie4brpbdpuovd739a94ccftdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shifahwellness.fordoctor",
+            "certificate_hash": "31d1de761eddf27989bb8e66d65fe6c2edd108a6"
+          }
+        },
+        {
+          "client_id": "303552525092-j5mftlhcdon5uqne45ad371ag39024dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shifahwellness.fordoctor",
+            "certificate_hash": "48523c29ae7636c0fed1940ffaa16b4cdb80f450"
+          }
+        },
+        {
+          "client_id": "303552525092-qopgauhe3tp7219qm72mh6faraqeglid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shifahwellness.fordoctor",
+            "certificate_hash": "6ab822bfac3dfc931f2b9d47edd01547c26d8646"
+          }
+        },
+        {
+          "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgI44b9L4YWrRnXV4CjmeG5AXY5jL4TSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303552525092-3r28ih73a6575hh8dva1kaiq24g0i748.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303552525092-crpi4lkv7g6pv9hslqbb64pvm5t0vh5m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shifahwellness.citydoctor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
