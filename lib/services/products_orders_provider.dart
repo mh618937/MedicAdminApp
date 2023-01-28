@@ -8,6 +8,7 @@ import 'package:medicadmin/data/models/style_model.dart';
 import 'package:medicadmin/data/repositories/product_repository.dart';
 
 import '../data/models/order_model.dart';
+import '../data/models/prescription_model.dart';
 import '../data/models/product_model.dart';
 
 class ProductOrdersProvider with ChangeNotifier {
@@ -196,4 +197,36 @@ class ProductOrdersProvider with ChangeNotifier {
     res = await productRepository.orderupdate(orderid, status);
     return res;
   }
+
+  //get prescription
+  List<PrescrModel> prescriptions = [];
+  bool presLoaded = false;
+  getAllprescription() async {
+    prescriptions = await productRepository.getAllPrescription();
+    prescriptions.sort((a, b) {
+      DateTime d1 = DateTime.parse(a.addedon!);
+      DateTime d2 = DateTime.parse(b.addedon!);
+      return d2.compareTo(d1);
+    });
+    presLoaded = true;
+    notifyListeners();
+  }
+
+  // reset pprescriotionloader
+  void resetpresloaed() {
+    presLoaded = false;
+  }
+
+  //update prescription
+  updateprescription(PrescrModel prescrModel) async {
+    await productRepository.updatePrescription(prescrModel);
+
+    notifyListeners();
+  }
+
+  // reset pprescriotionloader
+  // void resetpresloaed() {
+  //   presLoaded = false;
+  // }
+
 }

@@ -8,6 +8,8 @@ import 'package:medicadmin/data/repositories/api/api.dart';
 import 'package:uuid/uuid.dart';
 import 'dart:io';
 
+import '../models/prescription_model.dart';
+
 class ProductRepository {
   var uuid = const Uuid();
   Api api = Api();
@@ -211,5 +213,36 @@ class ProductRepository {
       throw (e.toString());
     }
     return res;
+  }
+
+  //get prescription i
+  Future<List<PrescrModel>> getAllPrescription() async {
+    List<PrescrModel> list;
+
+    try {
+      Response res =
+          await api.sendRequest.get("/api/user/fetchprescriptionbyadmin");
+      List data = res.data["data"];
+      log(data.toString());
+      list = data.map((e) => PrescrModel.fromJson(e)).toList();
+    } catch (e) {
+      throw e.toString();
+    }
+
+    return list;
+  }
+
+  Future<PrescrModel> updatePrescription(PrescrModel prescrModel) async {
+    try {
+      Response res = await api.sendRequest
+          .post("/api/user/updateprescription", data: prescrModel.toJson());
+      var data = res.data["data"];
+      log(data.toString());
+      prescrModel = PrescrModel.fromJson(data);
+    } catch (e) {
+      throw e.toString();
+    }
+
+    return prescrModel;
   }
 }

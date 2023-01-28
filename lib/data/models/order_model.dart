@@ -8,6 +8,10 @@ class OrderModel {
   String? adminid;
   int? totalordervalue;
   int? status;
+  int? paymenttype;
+  bool? paymentstatus;
+  String? paymentid;
+  Map? address;
   String? orderid;
   String? addedon;
   int? iV;
@@ -32,6 +36,10 @@ class OrderModel {
         items!.add(Items.fromJson(v));
       });
     }
+    address = json["address"];
+    paymenttype = json['paymenttype'];
+    paymentstatus = json['paymentstatus'];
+    paymentid = json['paymentid'];
     adminid = json["adminid"];
     totalordervalue = json["totalordervalue"];
     status = json['status'];
@@ -50,6 +58,7 @@ class OrderModel {
       data['items'] = items!.map((v) => v.toJson()).toList();
     }
     data["adminid"] = adminid;
+    data["address"] = address;
     data["totalordervalue"] = totalordervalue;
     data['status'] = status;
     data['orderid'] = orderid;

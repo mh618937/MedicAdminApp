@@ -56,7 +56,8 @@ dependencies:
   path_provider: ^2.0.11
   open_filex: ^4.3.2
   permission_handler: ^10.2.0
-
+  easy_image_viewer: ^1.2.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

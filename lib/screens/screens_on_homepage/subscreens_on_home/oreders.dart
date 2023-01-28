@@ -31,6 +31,12 @@ class _OrdersState extends State<Orders> {
     super.initState();
   }
 
+  Future<void> refresher() async {
+    setState(() {
+      breaker = 1;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     ProductOrdersProvider provider =
@@ -40,11 +46,6 @@ class _OrdersState extends State<Orders> {
       provider.fetchOrder(adminModel!.adminuserid!);
       provider.resetOrderloaded();
       breaker += 1;
-    }
-    Future<void> refresher() async {
-      setState(() {
-        breaker = 1;
-      });
     }
 
     return RefreshIndicator(
